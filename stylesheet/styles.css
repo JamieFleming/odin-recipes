@@ -11,18 +11,22 @@ h1 {
     text-align: center;
     margin: 10px auto;
     border: 1px solid red;
+    border-radius: 10px;
     background-color:burlywood;
 }
 
 ul {
     border: 1px solid red;
     text-align: center;
+    list-style: none;
+    border-radius: 10px;;
 }
 
 li {
     border: 1px solid blue;
     padding: 5px;
     margin: 5px;
+    border-radius: 25px;
 }
 
 li a {
@@ -30,7 +34,7 @@ li a {
     color: coral;
 }
 
-li:hover {
+.recipe_name:hover {
     background-color: blueviolet;
 }
 
