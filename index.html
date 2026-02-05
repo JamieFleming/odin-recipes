@@ -7,13 +7,65 @@
     <title id="title">Recipe Website</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <h1>Jamie's Recipes</h1>
 
-    <ul>
-        <li class="recipe_name"><a href="./recipes/lasagna.html">Lasagna Recipe</a></li>
-        <li class="recipe_name"><a href="./recipes/burger.html">Burger Recipe</a></li>
-        <li class="recipe_name"><a href="./recipes/pesto_pasta.html">Pesto Pasta Recipe</a></li>
-    </ul>
-    
+    <!-- <div class="recipe_list">
+    <h2>Recipes</h2>
+        <ul>
+            <li class="recipe_name"><a href="./recipes/beef_broccoli_rice.html">High Protein Beed & Broccoli Fried Rice</a></li>
+            <li class="nutrition">
+                <ul class="nutrtion_table">
+                    <li class="kcal">Calories</li>
+                    <li class="protein">Protein</li>
+                    <li class="carbs">Carbs</li>
+                    <li class="fat">Fat</li>
+                </ul>
+            </li>
+            <li class="recipe_name"><a href="./recipes/burger.html">Burger Recipe</a></li>
+            <li class="recipe_name"><a href="./recipes/pesto_pasta.html">Pesto Pasta Recipe</a></li>
+        </ul>
+    </div> -->
+
+    <div class="recipe_table">
+        <table> <!-- Defines the table - Everything inside is part of one table -->
+            <thead> <!-- Contains the header row which describes what each column means -->
+                <tr> <!-- Tabel row is a horizontal row -->
+                    <th>Recipe</th> <!-- Header column -->
+                    <th>Nutrition</th>
+                </tr>
+            </thead>
+            <tbody> <!-- Body section containing the data rows (recipe and macros)-->
+                <tr class="recipe_row">
+                    <td><a href="./recipes/fried_rice.html" class="recipe_link">High Protein Beef & Broccoli Fried Rice</a></td> <!-- Data cell holds one piece of data that belongs to the row and column -->
+                    <td class="macros">200kcal | 30g | 22.5g | 7.5g</td>
+                </tr>
+                <tr class="recipe_row">
+                    <td><a href="./recipes/taco_rice.html" class="recipe_link">High Protein Cheesy Chicken Taco Rice</a></td>
+                    <td class="macros">170kcal | 30g | 15g | 5g</td>
+                </tr>
+                <tr class="recipe_row">
+                    <td><a href="./recipes/cheese_steak.html">High Protein Philly Cheesesteak Sandwich</a></td>
+                    <td class="macros">300kcal | 26g | 22.5g | 11.5g</td>
+                </tr>
+                <tr class="recipe_row">
+                    <td><a href="./recipes/chicken_shawarma.html">High Protein Crispy Chicken Shawarma</a></td>
+                    <td class="macros">300kcal | 40g | 20g | 12.5g</td>
+                </tr>
+                <tr class="recipe_row">
+                    <td><a href="./recipes/hotpocket.html">Pepperoni Pizza Hot Pocket</a></td>
+                    <td class="macros">240kcal | 20g | 37.5g | 10g</td>
+                </tr>
+                <tr class="recipe_row">
+                    <td><a href="./recipes/sticky_garlic_chicken.html">Sticky Garlic Chicken</a></td>
+                    <td class="macros">300kcal | 26g | 22.5g | 11.5g</td>
+                </tr>
+                <tr class="recipe_row">
+                    <td><a href="./recipes/chilli_beef.html">Fakeaway Crispy Chilli Beef</a></td>
+                    <td class="macros">340kcal | 25g | 45g | 15g</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
 </html>
